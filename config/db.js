@@ -3,10 +3,10 @@ const mysql = require('mysql2');
 
 // Konfigurasi koneksi database
 const db = mysql.createConnection({
-    host: 'bqnr7fptqonzjcrabhbg-mysql.services.clever-cloud.com',               // Host database (tetap 'localhost' jika berjalan di lokal)
-    user: 'uh0vl0limzhjwyou',                    // Username MySQL Anda
-    password: 'w9vNuz67MeUntM0euYg6',                // Password MySQL Anda
-    database: 'bqnr7fptqonzjcrabhbg',        // Nama database Anda
+    host: 'btf72yfzpcpszcmiu5eq-mysql.services.clever-cloud.com',               // Host database (tetap 'localhost' jika berjalan di lokal)
+    user: 'ucfidgwlrbye3s17',                    // Username MySQL Anda
+    password: 'GSVNAfNSUufcLU26qiRu',                // Password MySQL Anda
+    database: 'btf72yfzpcpszcmiu5eq',        // Nama database Anda
     multipleStatements: true         // Jika perlu menjalankan beberapa query dalam 1 perintah
 });
 
